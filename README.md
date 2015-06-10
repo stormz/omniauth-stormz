@@ -7,7 +7,7 @@ on the [Stormz Applications Page](https://stormz.me/oauth/applications).
 ## Basic Usage
 
     use OmniAuth::Builder do
-      provider :stormz, ENV[STORMZ_KEY'], ENV['STORMZ_SECRET']
+      provider :stormz, ENV['STORMZ_KEY'], ENV['STORMZ_SECRET']
     end
 
 ## License
