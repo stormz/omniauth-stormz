@@ -15,5 +15,5 @@ Gem::Specification.new do |gem|
   gem.require_paths = ["lib"]
   gem.version = OmniAuth::Stormz::VERSION
 
-  gem.add_dependency 'omniauth-oauth2', '~> 1.1'
+  gem.add_dependency 'omniauth-oauth2', '<= 1.4'
 end
