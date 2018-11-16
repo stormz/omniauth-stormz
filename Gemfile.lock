@@ -1,32 +1,32 @@
 PATH
   remote: .
   specs:
-    omniauth-stormz (0.0.1)
-      omniauth-oauth2 (<= 1.4)
+    omniauth-stormz (0.0.3)
+      omniauth-oauth2 (~> 1.1)
 
 GEM
   remote: https://rubygems.org/
   specs:
-    faraday (0.9.2)
+    faraday (0.15.3)
       multipart-post (>= 1.2, < 3)
-    hashie (3.4.3)
-    jwt (1.5.2)
-    multi_json (1.11.2)
-    multi_xml (0.5.5)
+    hashie (3.5.7)
+    jwt (2.1.0)
+    multi_json (1.13.1)
+    multi_xml (0.6.0)
     multipart-post (2.0.0)
-    oauth2 (1.0.0)
-      faraday (>= 0.8, < 0.10)
-      jwt (~> 1.0)
+    oauth2 (1.4.1)
+      faraday (>= 0.8, < 0.16.0)
+      jwt (>= 1.0, < 3.0)
       multi_json (~> 1.3)
       multi_xml (~> 0.5)
-      rack (~> 1.2)
-    omniauth (1.2.2)
-      hashie (>= 1.2, < 4)
-      rack (~> 1.0)
-    omniauth-oauth2 (1.4.0)
-      oauth2 (~> 1.0)
+      rack (>= 1.2, < 3)
+    omniauth (1.8.1)
+      hashie (>= 3.4.6, < 3.6.0)
+      rack (>= 1.6.2, < 3)
+    omniauth-oauth2 (1.5.0)
+      oauth2 (~> 1.1)
       omniauth (~> 1.2)
-    rack (1.6.4)
+    rack (2.0.6)
 
 PLATFORMS
   ruby
@@ -35,4 +35,4 @@ DEPENDENCIES
   omniauth-stormz!
 
 BUNDLED WITH
-   1.10.6
+   1.17.1
